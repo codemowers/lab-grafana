@@ -12,5 +12,7 @@ Exercises:
 * Add `prometheus.yaml` in `grafana-datasources` ConfigMap to
   [declaratively configure data sources](https://grafana.com/docs/grafana/latest/administration/provisioning/) for Grafana
 * Add CloudNativePG cluster into your sandbox or use existing one
-* Reconfigure Grafana to use Postgres as backing store for Grafana,
-  convert `StatefulSet` to `Deployment`
+* Reconfigure Grafana to use Postgres as backing store for Grafana.
+  No need to export-import existing dashboards
+* Delete volume claim template section
+* Convert `StatefulSet` to `Deployment`.
